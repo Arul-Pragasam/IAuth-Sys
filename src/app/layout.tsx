@@ -9,7 +9,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="layout">
       <header>
-        <h1>My Website</h1>
+        <h1>IAuth Sys</h1>
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
@@ -21,7 +21,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </header>
       <main>{children}</main>
       <footer>
-        <p>&copy; 2024 My Website</p>
+        <p>&copy; 2024 IAuth Sys</p>
       </footer>
     </div>
   );
